@@ -1,12 +1,23 @@
+body{
+	background-position-y:-650px; 
+	background-color: black;
+
+}
 .imageBio{
 	text-align: center;
+
+}
+.imageBio img{
+	margin-top: 105px;
+	width: 1050px;
 }
 .texteBio{
-	width: 800px;
+	width: 1050px;
 	margin: auto;
 }
 .hrBio{ 
 	margin-bottom: 35px;
+	margin-top: 35px;
 }
 .backBio1{
 	 
@@ -15,5 +26,15 @@
 }
 .texteBio{
 	color: #a9a9a9;
-	background: black;
+	background-color: black;
+}
+h1{
+	font-size: 80px;
+	font-weight: lighter;
+	padding-top: 50px;
+}
+h2{
+	font-size: 30px;
+	font-weight: lighter;
+	padding-top: 35px;
 }

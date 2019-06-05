@@ -1,11 +1,9 @@
 .basPage{	
-	width: 1250px;
-	margin-left: 20%;
 	padding-bottom: 35px;
 	padding-top: 35px;
 }
 .titreBP{
-	width: 1000px;
+	width: 1200px;
 	display:flex;
 	justify-content: space-between;
 	margin: auto;
@@ -30,7 +28,7 @@ time{
 hr{
 	border-color: #4c4a4a;
 	background: black;
-	width: 1000px;
+	width: 1200px;
 	margin-top: 35px;
 	margin:auto;
 	 
