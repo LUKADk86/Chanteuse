@@ -1,6 +1,83 @@
+/*style.css*/
+@font-face {
+font-family: 'Open Sans';
+src: url('Open_Sans/OpenSans-SemiBold.ttf');
+src: url('Open_Sans/OpenSans-Bold.ttf');
+src: url('Open_Sans/OpenSans-Regular.ttf');
+src: url('Open_Sans/OpenSans-Light.ttf');
+}
+body{
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#container{
+	padding-left: 140px;
+	padding-right: 140px;
+	font-family: 'Open Sans', sans serif;
+	color: white;
+	background-color: #313030;
+	opacity: 0.7;
+}
+header{
+	background-color: black;
+}
+.menu ul{
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-top: 50px;
+	text-align: center;
+
+}
+.menu ul li{
+	display: inline;
+	margin-left: 50px;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #a9a9a9;
+}
+.menu ul li a:hover{
+	color: white;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+h2{
+	text-align: center;
+}
+hr{
+	color: grey;
+	border-color: grey;
+	background-color: grey;
+	width: 1600px;
+	margin-top: 35px;
+	margin:auto;
+    opacity:  0.4;
+}
+input{
+	background-color: #000000;
+	margin-bottom: 25px;
+	color: white;
+}
+.searchcontact input{
+	margin-bottom: 60px;
+}
+/*style.css*/
 .corpscontact{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 .searchcontact{
 	width: 510px;
@@ -16,8 +93,60 @@
 #chercher{
 	width: 500px;
 }
-hr{
-	hr{
-    width: 1600px;
-    opacity:  0.4;
+h3{
+	color: white;
+	margin-bottom: 60px;
 }
+h4{
+	color: white;
+}
+    
+
+/*bas de bas*/
+.basPage{	
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+.titreBP{
+	width: 1200px;
+	display:flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.article{
+	width: 300px;
+	color: #F5F5F5;
+}
+.datesBP ul {
+	list-style-type: none;
+	color: #D3D3D3;
+	margin-left: -40px;
+}
+time{
+	color: 7A7A7A;
+	font-size: 0.8em;
+}
+
+.titreBP p{
+	color: white;
+}	 
+#p{
+	color:#666363; 
+}
+/*bas de page*/
+/*footer*/
+footer{
+	text-align: center;
+	color: white;
+	word-spacing: 5px;
+	padding: 30px;
+}
+.icones{
+	font-size: 1.2em;
+	word-spacing: 20px;
+	padding-bottom: 20px;
+}
+i{
+	color: white;
+}
+/*footer*/
