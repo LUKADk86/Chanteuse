@@ -7,29 +7,39 @@ src: url('Open_Sans/OpenSans-Regular.ttf');
 src: url('Open_Sans/OpenSans-Light.ttf');
 }
 body{
-	background-image: url('photos/background.jpg');	
-	background-size: 1920px 1920px;
-    background-repeat: no-repeat;
+	
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: black
+    
 }
 #container{
-	padding-left: 140px;
-	padding-right: 140px;
+	
 	font-family: 'Open Sans', sans serif;
 	color: white;
-	background-color: black;
-	opacity: 0.7;
+	
+	
+	
+	
 }
-header{
+.header{
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+	background-position: 0px -500px;	
+	margin-bottom: 0px;
 
 }
+.opacity{
+	background-color: rgba(0,0,0,0.5)
+}
+
+
 .menu ul{
 	margin-right:auto;
 	margin-left: auto;
 	margin-top: 0px;
+	padding-top: 60px;
 	
 	text-align: center;
 
@@ -46,12 +56,19 @@ header{
 .menu ul li a:hover{
 	color: white;
 }
-h1{
+.main-title{
+	padding-top: 220px;
 	text-align: center;
-	font-weight: bold;
+	color: white;
+	margin: 0px;
+	font-size: 95px;
+	
 }
-h2{
+.subtitle{
 	text-align: center;
+	font-size: 20px;
+	padding-bottom: 290px;
+	margin-bottom: 0px;
 }
 
 /*style css*/
@@ -119,32 +136,80 @@ h1{
 	margin-top: 0px;
 }
 
-h2{
-	padding-bottom: 150px;
-}
 
-.imageshome{
+.flex{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 100px;
-	opacity: 1;
+
+}
+.imageshome{
+	
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+	background-position: 0px -800px;
+	margin-bottom: -150px;
+	margin-top: 0px;
+	
+	
 }	
 .vid{
-	opacity: 1;
+	padding-left: 70px;
+	padding-right: 70px;
+	
+	
+}
+.vid-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 40px;
+}
+.h1-vid{
+	margin-top: 0px;
+}
+.td-img1{
+	
+	text-align: center ;
+	border-top:grey solid 0.5px;
+	border-bottom: grey solid 0.5px;
+	
+}
+.td-img{
+	border-left: grey solid 0.5px;
+	border-top: grey solid 0.5px;
+	border-bottom: grey solid 0.5px;
+	text-align: center ;
+	padding-top: 20px;
+	
+}
+.img{
+	background-color: black;
+	width: 70%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 .dateshome{
-
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+	background-position: 0px -400px;
+	
+	
 }
-
-#text{
-	font-size: 80px;
+.padding{
+	padding-top: 400px;
 }
-/*tableau*/
-table {
+.table {
+	
   	border-collapse: collapse;
     border-spacing: 2px;
     width: 1650px;
- 	text-align: -webkit-left;
+ 	
+}
+#text{
+	font-size: 80px;
 }
 caption {
 	text-align: left;
