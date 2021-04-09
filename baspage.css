@@ -1,8 +1,16 @@
 .basPage{	
-	padding-bottom: 35px;
-	padding-top: 35px;
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+	background-position: 0px -800px;	
+	margin-top: -150px;
+	
+}
+.hrspace{
+	padding-top: 200px;
 }
 .titreBP{
+	padding-top: 200px;
 	width: 1200px;
 	display:flex;
 	justify-content: space-between;
@@ -25,10 +33,12 @@ time{
 .titreBP p{
 	color: white;
 }
-hr{
-	border-color: #4c4a4a;
-	background: black;
-	width: 1200px;
+.basPage hr{
+	
+	border-color: grey;
+	background: grey;
+	width: 90%;
+
 	margin-top: 35px;
 	margin:auto;
 	 

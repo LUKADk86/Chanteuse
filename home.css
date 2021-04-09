@@ -72,45 +72,6 @@ body{
 }
 
 /*style css*/
-/*bas page*/
-.basPage{	
-	
-	padding-bottom: 35px;
-	padding-top: 35px;
-}
-.titreBP{
-	display:flex;
-	justify-content: space-between;
-	margin: auto;
-}
-.article{
-	width: 300px;
-	color: #F5F5F5;
-}
-.datesBP ul {
-	list-style-type: none;
-	color: #D3D3D3;
-	margin-left: -40px;
-}
-time{
-	color: #4c4a4a;
-	font-size: 0.8em;
-}
-
-.titreBP p{
-	color: white;
-}
-hr{
-	border-color: #4c4a4a;
-	background: black;
-	margin-top: 35px;
-	margin:auto;
-	 
-}
-#p{
-	color:#666363; 
-}
-/*bas page*/
 /*footer*/
 footer{
 	text-align: center;
@@ -199,7 +160,7 @@ h1{
 	
 }
 .padding{
-	padding-top: 400px;
+	padding-top: 250px;
 }
 .table {
 	
@@ -208,17 +169,32 @@ h1{
     width: 1650px;
  	
 }
-#text{
-	font-size: 80px;
-}
+
 caption {
 	text-align: left;
 	padding-bottom: 15PX;
 	font-size: 1.5em;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
-td {
-	border-bottom: solid;
-	border-width: 1.5px;
+.table tr td {
+	border-bottom: grey solid 0.5px;
+	font-size: 1.8rem;
+	height: 60px;
+}
+.table tr .bold{
+	font-weight: bold;
+}
+.table tr .tdone{
+	font-size: 1rem;
+}
+.vid a{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 150px;
 }
