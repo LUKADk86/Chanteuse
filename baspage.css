@@ -20,10 +20,23 @@
 	width: 300px;
 	color: #F5F5F5;
 }
-.datesBP ul {
-	list-style-type: none;
+.article h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.dates-list {
+	list-style: none;
 	color: #D3D3D3;
 	margin-left: -40px;
+	font-weight: bold;
+}
+.dates-list li {
+	padding-bottom: 20px;
+	color: white;
+}
+.dates-list li date{
+	color: rgb(224, 223, 220);
+	font-weight: lighter;
 }
 time{
 	color: #4c4a4a;
@@ -37,7 +50,7 @@ time{
 	
 	border-color: grey;
 	background: grey;
-	width: 90%;
+	width: 94%;
 
 	margin-top: 35px;
 	margin:auto;

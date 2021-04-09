@@ -73,17 +73,31 @@ body{
 
 /*style css*/
 /*footer*/
+
 footer{
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+	background-position: 0px -800px;	
+	margin-bottom: 0px;
 	text-align: center;
-	background: black;
+	margin-top: -200px;
 	color: white;
 	word-spacing: 5px;
-	padding: 30px;
+	
 }
 .icones{
+	padding: 30px;
+	padding-top: 300px;
 	font-size: 1.2em;
 	word-spacing: 20px;
 	padding-bottom: 20px;
+}
+.icones a {
+	padding-right: 20px;
+}
+.icones hr {
+	margin-bottom: 90px;
 }
 i{
 	color: white;
@@ -95,6 +109,10 @@ h1{
 	font-weight: lighter;
 	padding-top: 150px;
 	margin-top: 0px;
+}
+.obsidian{
+	font-size: 1rem;
+	padding-bottom: 50px;
 }
 
 
@@ -108,7 +126,7 @@ h1{
 	background-image: url('photos/background.jpg');	
 	background-size: 1920px 1920px;
     background-repeat: no-repeat;
-	background-position: 0px -800px;
+	background-position: 0px -1100px;
 	margin-bottom: -150px;
 	margin-top: 0px;
 	
@@ -155,7 +173,7 @@ h1{
 	background-image: url('photos/background.jpg');	
 	background-size: 1920px 1920px;
     background-repeat: no-repeat;
-	background-position: 0px -400px;
+	background-position: 0px -900px;
 	
 	
 }
@@ -186,6 +204,7 @@ caption {
 .table tr .bold{
 	font-weight: bold;
 }
+
 .table tr .tdone{
 	font-size: 1rem;
 }
