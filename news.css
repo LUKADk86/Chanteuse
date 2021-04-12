@@ -5,6 +5,8 @@ src: url('Open_Sans/OpenSans-Bold.ttf');
 src: url('Open_Sans/OpenSans-Regular.ttf');
 src: url('Open_Sans/OpenSans-Light.ttf');
 }
+
+
 body{
 	background-image: url('photos/background.jpg');
 	
@@ -43,10 +45,17 @@ body{
 .menu ul li a:hover{
 	color: white;
 }
-h1{
+.main-title{
+	padding-top: 220px;
 	text-align: center;
-	font-weight: bold;
+	color: white;
+	margin: 0px;
+	font-size: 95px;
+	
 }
-h2{
+.subtitle{
 	text-align: center;
+	font-size: 40px;
+	margin-top: 100px;
+	margin-bottom: 0px;
 }

@@ -30,6 +30,10 @@ body{
 .backBio{
 
 }
+p{
+	line-height: 25px;
+	padding-bottom: 25px;
+}
 .menu ul{
 	margin-right:auto;
 	margin-left: auto;
@@ -54,9 +58,7 @@ h1{
 	text-align: center;
 	font-weight: bold;
 }
-h2{
-	text-align: center;
-}
+
 /*bio*/
 .imageBio{
 	text-align: center;
@@ -72,9 +74,12 @@ h2{
 }
 
 hr{ 
+	border-color: grey;
+	
+	
 	margin-bottom: 35px;
 	margin-top: 35px;
-	width: 1640px;
+	width: 80%;
 }
 .hrBio{
 	margin-top: 150px;
@@ -93,10 +98,11 @@ h1{
 	font-weight: lighter;
 	padding-top: 50px;
 }
-h2{
+header h2{
 	font-size: 30px;
 	font-weight: lighter;
 	padding-top: 35px;
+	text-align: center;
 }
 /*header*/
 .menu ul{
@@ -113,16 +119,21 @@ h2{
 h1{
 	text-align: center;
 }
-h2{
-	text-align: center;
-}
+
 header{
 	height: 400px;
 }
+
 /*baspage*/
 .basPage{	
 	padding-bottom: 35px;
 	padding-top: 35px;
+}
+.basPage image{
+	width: 100%;
+}
+.basPage h2{
+	font-size: 1rem;
 }
 .titreBP{
 	width: 1200px;
@@ -163,6 +174,13 @@ footer{
 	font-size: 1.2em;
 	word-spacing: 20px;
 	padding-bottom: 20px;
+}
+.icones a {
+	padding-right: 20px;
+}
+.obsidian{
+	font-size: 1rem;
+	padding-bottom: 50px;
 }
 i{
 	color: white;
